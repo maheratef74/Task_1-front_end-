@@ -1,5 +1,5 @@
 .first {
-    background-image: url('./dogs&&cats/background\ circles\ \(1\).png');
+    background-image: url('./img/background\ circles\ \(1\).png');
     position: relative;
     width: 1300px;
     height: 900px;
@@ -21,9 +21,6 @@
     position: absolute;
 }
 
-/* Styling for the main header div */
-
-
 h1 {
     margin: 20px 0;
     font-size: 3em;
@@ -35,7 +32,6 @@ h3 {
     color: white;
 }
 
-/* Button styling */
 button {
     margin: 10px;
     padding: 10px 20px;
@@ -48,12 +44,8 @@ button {
 
 #b2:hover {
     background-color: #03093f;
-    /* Darker red background on hover */
     color: white;
-    /* White text color on hover */
 }
-
-/* Specific styling for button with id="2" */
 #b2 {
     color: white;
     border-color: white;
@@ -99,18 +91,6 @@ button {
     height: 168px;
 }
 
-/* Styling for the second section */
-/*.first .colour1{
-    display: flexbox;
-    position: absolute;
-    width: 517px;
-    height: 517px;
-    top: 62px;
-    left: 1028px;
-    background-color: #D660FF;
-    border-radius: 50%;
-    linear-gradient : #D660FF;
-}*/
 .second {
     width: 1300px;
     height: 600px;
