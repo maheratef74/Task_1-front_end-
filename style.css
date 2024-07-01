@@ -37,7 +37,7 @@ button {
     padding: 10px 20px;
     color: white;
     border-radius: 5px;
-    background-color: rgb(13, 14, 71);
+    background-color: transparent;
     cursor: pointer;
     font-size: 1em;
 }
@@ -52,7 +52,7 @@ button {
 }
 
 #b1 {
-    background-color: #06138a;
+    background-color: #475AFF;
 }
 
 .container {
@@ -87,8 +87,11 @@ button {
 }
 
 .container .option p {
+    line-height: 1.5;
     width: 150px;
     height: 168px;
+    font-size: Source Sans Pro;
+    margin: 10px;
 }
 
 .second {
@@ -187,4 +190,9 @@ button {
     width: 20px;
     height: 20px;
 }
-
+img:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.1);
+}
